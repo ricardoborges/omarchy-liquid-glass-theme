@@ -50,3 +50,7 @@ hl.config({
 ## Requirements
 
 The backgrounds are WebP, which the Omarchy shell decodes through `qt6-imageformats`. Current Omarchy installs it; on an older system, run `omarchy-pkg-add qt6-imageformats && omarchy-restart-shell`.
+
+## License
+
+[MIT](LICENSE)
