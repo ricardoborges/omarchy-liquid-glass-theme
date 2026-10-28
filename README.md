@@ -23,7 +23,7 @@ Then pick **Liquid Glass** with `Super + Ctrl + T`. Cycle the three backgrounds 
 
 ## Getting the full glass effect
 
-Omarchy never runs `.lua` files from a theme installed from a git repo, so this theme's `hyprland.lua` is skipped on install. That file adds the rounded corners, the soft lavender shadow, and the blur behind the translucent shell surfaces. Without it the shell is still see-through, just not frosted.
+Omarchy never runs `.lua` files from a theme installed from a git repo, so this theme ships its Hyprland tweaks as `hyprland.lua.example` instead. That file adds the rounded corners, the soft lavender shadow, and the blur behind the translucent shell surfaces. Without it the shell is still see-through, just not frosted.
 
 Omarchy's own settings get you most of the way. In the Omarchy menu, under _Appearance_:
 
@@ -31,7 +31,7 @@ Omarchy's own settings get you most of the way. In the Omarchy menu, under _Appe
 - _Windows > Window Opacity > Glassy Windows_ frosts the windows and the other shell surfaces
 - _Windows > Rounded Corners_ rounds the windows and the shell
 
-The soft lavender shadow is the one piece left. To add it, read [`hyprland.lua`](hyprland.lua), then copy its `shadow` block into `~/.config/hypr/looknfeel.lua`:
+The soft lavender shadow is the one piece left. To add it, read [`hyprland.lua.example`](hyprland.lua.example), then copy its `shadow` block into `~/.config/hypr/looknfeel.lua`:
 
 ```lua
 hl.config({
